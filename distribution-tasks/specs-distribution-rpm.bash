@@ -1,0 +1,1 @@
+../specs-scripts/tasks-distribution-rpm.bash

@@ -12,6 +12,12 @@ env -i "${_git_env[@]}" "${_git_bin}" \
 	path="$( readlink -e "${name}" )"
 	name="$( basename "${name}" )"
 	case "${name}" in
+		( specs-repositories )
+			orig_path="$( readlink -e ../specs-distribution-repositories )"
+		;;
+		( specs-dependencies )
+			orig_path="$( readlink -e ../specs-distribution-dependencies )"
+		;;
 		( mosaic-repositories )
 			orig_path="$( readlink -e ../mosaic-distribution-repositories )"
 		;;

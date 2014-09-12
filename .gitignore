@@ -5,6 +5,8 @@
 !/.scripts
 !/.scripts/**
 
+!/.specs-repositories
+!/.specs-dependencies
 !/.mosaic-repositories
 !/.mosaic-dependencies
 

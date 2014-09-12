@@ -4,3 +4,9 @@
 [submodule "mosaic-dependencies"]
 	path = mosaic-dependencies
 	url = ../mosaic-distribution-dependencies.git
+[submodule "specs-repositories"]
+	path = specs-repositories
+	url = ../specs-distribution-repositories.git
+[submodule "specs-dependencies"]
+	path = specs-dependencies
+	url = ../specs-distribution-dependencies.git
